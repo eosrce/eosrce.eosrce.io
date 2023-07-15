@@ -1,0 +1,22 @@
+.t-left { text-align: left; }
+.t-center { text-align: center; }
+.t-right { text-align: right; }
+
+.t-gray { color: #EFEFEF; }
+.t-white { color: #FFF; }
+.t-black { color: #000; }
+.t-orange { color: #FF9900; }
+
+.bg-white { background: #FFF; }
+.bg-black { background: #000; }
+
+.m-t-100 { margin-top: 100px; }
+.m-t-200 { margin-top: 200px; }
+
+.m-b-100 { margin-bottom: 100px; }
+.m-b-200 { margin-bottom: 200px; }
+
+.container { width: 1170px; margin: 0 auto; }
+/* .container-fluid { margin: 0 auto; } */
+
+.d-flex { display: flex; }
