@@ -19,4 +19,6 @@
 .container { width: 1170px; margin: 0 auto; }
 /* .container-fluid { margin: 0 auto; } */
 
+.content-m { max-width: 800px; margin: 0 auto; }
+
 .d-flex { display: flex; }

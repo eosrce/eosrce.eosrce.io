@@ -1,0 +1,57 @@
+/* Common-Style Start */
+body, ul, li, h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+body, a {
+    color: #FFF;
+}
+
+body {
+    /* height: 100vh; */
+    font-family: 'Microsoft YaHei';
+    font-size: 14px;
+    background: #000;
+    overflow-x: hidden;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+h3 {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+button {
+    border: 1px solid #333;
+    padding: 4px;
+}
+
+
+/* 滚动条样式 */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track-piece {
+    background: rgba(255, 255, 255, 0);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background: #FFCC00;
+}
+/* Common-Style End */

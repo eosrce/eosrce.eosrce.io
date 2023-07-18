@@ -8,13 +8,16 @@
 
 .nav-header {
     width: 100vw;
-    height: 90vh;
+    height: 40vh;
+    
+    border-top: 100px solid #050505;
 }
 
 .bg-img {
-    /* position: absolute; */
-    width: 100%;
-    height: 100%;
+    position: absolute;
+    left: 0;
+    min-width: 100%;
+    min-height: 80px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(https://s2.loli.net/2023/07/16/FaAQibnw9OvsPk6.jpg) center center no-repeat;
 }
 
@@ -141,7 +144,7 @@
 
 .site-info {
     position: relative;
-    top: -40px;
+    top: 40px;
     left: -40px;
     min-width: 200px;
     max-width: 400px;
@@ -185,3 +188,15 @@
     color: #FFF;
 }
 /* Main-content End */
+
+
+/* content-main-wrapper Start */
+.content-main-wrapper section h3 {
+    margin-left: 2rem;
+}
+
+.content-main-wrapper section > p {
+    margin: 0 4rem;
+    font-size: 1rem;
+}
+/* content-main-wrapper End */

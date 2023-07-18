@@ -1,0 +1,39 @@
+/* Footer Start */
+/* .footer-wrapper { */
+    /* min-height: 200px; */
+    /* background: #1f1f1f00; */
+/* } */
+
+.footer-main-wrapper {
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+}
+
+.footer-main-wrapper p {
+    margin: 1rem 0;
+}
+
+
+.footer-col {
+    flex-basis: 33.3333%;
+}
+
+.t-copyright {
+    position: absolute;
+    top: 45%;
+    right: 0;
+    bottom: 55%;
+    left: 0;
+}
+
+.t-copyright p {
+    margin: 10px 0;
+    font-size: .85rem;
+    letter-spacing: .1rem;
+}
+
+.t-copyright p > a {
+    color: #db207d;
+}
+/* Footer End */
